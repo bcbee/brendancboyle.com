@@ -25,7 +25,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(lessMiddleware(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'public'), {maxAge: 3600 * 1000}));
+app.use(express.static(path.join(__dirname, 'public'), {maxAge: 24 * 3600 * 1000}));
 
 app.use('/', index);
 app.use('/users', users);
