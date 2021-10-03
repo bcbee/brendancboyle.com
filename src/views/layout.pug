@@ -4,7 +4,7 @@ html
         title= title
         meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
         link(href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Cutive", rel="stylesheet")
-        link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css", integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb", crossorigin="anonymous")
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
         link(rel='stylesheet', href='/stylesheets/style.css')
         link(rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png")
         link(rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png")
@@ -26,7 +26,5 @@ html
                     li(class="nav-item")
                         a(class="nav-link" href="mailto:brendan@dbztech.com")="Contact"
         block content
-        script(src="https://code.jquery.com/jquery-3.2.1.slim.min.js", integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN", crossorigin="anonymous")
-        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js", integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh", crossorigin="anonymous")
-        script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js", integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ", crossorigin="anonymous")
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
         script="!function(e,t,r){var n=e.createElement(t),s=e.getElementsByTagName(t)[0];n.src='/elastic-apm-rum.umd.min.js',n.onload=function(){elasticApm.init(r)},s.parentNode.insertBefore(n,s)}(document,'script',{serviceName:'brendancboyle-website-rum',serverUrl:'https://bf1c5fd3292946508c7145006a575c9b.apm.us-east-1.aws.cloud.es.io:443',breakdownMetrics:true});"
