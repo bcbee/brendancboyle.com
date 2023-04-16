@@ -14,7 +14,7 @@ const apm = require('elastic-apm-node').start({
   secretToken: process.env.ELASTIC_APM_TOKEN,
 
   // Set custom APM Server URL (default: http://localhost:8200)
-  serverUrl: 'https://bf1c5fd3292946508c7145006a575c9b.apm.us-east-1.aws.cloud.es.io:443',
+  serverUrl: 'https://apm.bcbee.dev',
 })
 
 /**
